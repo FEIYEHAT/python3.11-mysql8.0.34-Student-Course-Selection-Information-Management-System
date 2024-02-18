@@ -1,1 +1,1 @@
-# python3.11-mysql8.0.34__-Student-Course-Selection-Information-Management-System-
+# python3.11-mysql8.0.34-Student-Course-Selection-Information-Management-System
