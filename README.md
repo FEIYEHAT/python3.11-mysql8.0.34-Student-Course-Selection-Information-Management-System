@@ -15,7 +15,7 @@ The main function of the student course selection information management system 
 ![MySQL8.0.34](/readme/mysql.png)
 - Python3.11.5
 ![Python3.11.5](/readme/python.png)
-- Tkinter布局助手网址：https://www.pytk.net/
+- Tkinter布局助手：https://www.pytk.net/
 ![Tkinter布局助手](/readme/Tkinter%E5%B8%83%E5%B1%80%E5%8A%A9%E6%89%8B.png)
 ###### The website is sourced from the author of (iamxcd Fresh Orange Duo), whose work is open source at:https://github.com/iamxcd/tkinter-helper
 ###### Note:The author utilized this Tkinter布局助手 to solve the GUI layout problem of this program, while also making programming more convenient. Therefore, it is used here to express gratitude!
@@ -30,13 +30,13 @@ The main function of the student course selection information management system 
 #### 6. E-R
 ![E-R图](/readme/E-R%E5%9B%BE.png)
 #### 7. Database view of scdb
-##### 【主键】
+##### 【Primary key】
 - scdb.department.dno
 - scdb.student.sno
 - scdb.teacher.tno
 - scdb.course.cno
 - scdb.course_release_time.ctpye
-##### 【外键】
+##### 【Foreign key】
 - scdb.sct.cno              ---->    course.cno
 - scdb.sct.sno              ---->    student.sno
 - scdb.sct.tno              ---->    teacher.tno
@@ -46,39 +46,39 @@ The main function of the student course selection information management system 
 - scdb.teachercourse.tno    ---->    teacher.tno
 ![scdb视图](/readme/scdb.jpg)
 #### 8. Database view of users
-##### 【主键】
+##### 【Primary key】
 - users.t_admin.t_admin_account	
 - users.t_teacher.t_teacher_tno
 - users.t_student.t_student_sno
 ![users视图](/readme/users.jpg)
-#### 9. 主要函数
-1. 文件类
+#### 9. Functions
+1. File class
 【file_fun.py】
-- 读取文件数据：def batch_add(filename)
-- 导出与保存文件：def save_file(filename, data, low, sel = False)
-- 读取文件路径：def select_file()
-2. 功能类
+- Read file data：def batch_add(filename)
+- Export and Save Files：def save_file(filename, data, low, sel = False)
+- Read file path：def select_file()
+2. Functional class
 - 【page_login.py】
-- 正则判断输入内容： **def validate_input(event)** 
-- 设置新密码： **def button_set_password(self)** 
-- 登录信息验证： **def login_tip(self)** 
+- Regular judgment of input content： **def validate_input(event)** 
+- Set a new password： **def button_set_password(self)** 
+- Login information verification： **def login_tip(self)** 
 - 【page_admin.py】
-- 学生信息添加： **def button_student_add_enter(self)** 
-- 学生信息数据导入与检错： **def excl_file_se(self)** 
-- 学生信息修改： **def button_student_update_enter(self)** 
-- 学生信息删除： **def button_student_del_enter(self)** 
-- 教工信息添加： **def button_teacher_add_enter(self)** 
-- 教工信息数据导入与检错： **def texcl_file_se(self)** 
-- 教工信息修改： **def button_teacher_update_enter(self)** 
-- 教工信息删除： **def button_teacher_del_enter(self)** 
-- 院系信息添加： **def button_d_add_enter(self)** 
-- 院系信息数据导入与检错： **def dexcl_file_selcet(self)** 
-- 院系信息删除： **def button_dept_del(self)** 
-- 课程信息添加： **def course_add(self)** 
-- 课程信息数据导入与检错： **def button_c_batch_add(self)** 
-- 课程信息修改： **def button_c_update(self)** 
-- 课程信息删除： **def button_c_del(self)** 
+- Add student information： **def button_student_add_enter(self)** 
+- Import and error detection of student information data： **def excl_file_se(self)** 
+- Student information modification： **def button_student_update_enter(self)** 
+- Delete student information： **def button_student_del_enter(self)** 
+- Add teaching staff information： **def button_teacher_add_enter(self)** 
+- Import and error detection of teaching staff information data： **def texcl_file_se(self)** 
+- Modification of teaching staff information： **def button_teacher_update_enter(self)** 
+- Delete teaching staff information： **def button_teacher_del_enter(self)** 
+- Add departmental information： **def button_d_add_enter(self)** 
+- Import and error detection of departmental information data： **def dexcl_file_selcet(self)** 
+- Delete departmental information： **def button_dept_del(self)** 
+- Add Course information： **def course_add(self)** 
+- Import and error detection of course information data： **def button_c_batch_add(self)** 
+- Modify course information： **def button_c_update(self)** 
+- Delete course information： **def button_c_del(self)** 
 - 【page_student.py】 
-- 每秒刷新时间： **def update_clock(self)** 
-- 选课时间实时： **def time_compare(self)** 
-- 选课反馈： **def tree_select(self, event)** 
+- Refresh time per second： **def update_clock(self)** 
+- Real time course selection time： **def time_compare(self)** 
+- Feedback course selection： **def tree_select(self, event)** 
