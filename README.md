@@ -1,6 +1,7 @@
 # python3.11-mysql8.0.34-Student-Course-Selection-Information-Management-System
 
 #### 1. Introduction
+- Program demonstration video [ https://www.bilibili.com/video/BV18U421d7Yn/ ]
 - python3.11-mysql8.0.34-学生选课信息管理系统
 - https://gitee.com/in5430km/2024_2_18_scdb
 #### 2. System description
