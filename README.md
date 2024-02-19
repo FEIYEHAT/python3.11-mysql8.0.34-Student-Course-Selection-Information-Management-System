@@ -15,9 +15,9 @@ python3.11-mysql8.0.34-Student-Course-Selection-Information-Management-System
 - MySQL8.0.34
 ![MySQL8.0.34](/readme/mysql.png)
 - Python3.11.5
-![Python3.11.5](python.png)
+![Python3.11.5](/readme/python.png)
 - Tkinter布局助手网址：https://www.pytk.net/
-![Tkinter布局助手](Tkinter%E5%B8%83%E5%B1%80%E5%8A%A9%E6%89%8B.png)
+![Tkinter布局助手](/readme/Tkinter%E5%B8%83%E5%B1%80%E5%8A%A9%E6%89%8B.png)
 ###### 网址来源于他人作者所创作，其作者作品开源于：https://github.com/iamxcd/tkinter-helper
 ###### 备注：本作者利用这个Tkinter布局助手，解决了此程序的GUI布局问题，同时也使得程序编程更加便捷。故引用于此，以表感谢！
 #### 4. 主要链接库
@@ -27,9 +27,9 @@ python3.11-mysql8.0.34-Student-Course-Selection-Information-Management-System
 - 获取当前时钟 ：datetime
 - 多线程调用 ：threading
 #### 5. 功能与需求分析
-![功能框图](%E5%88%86%E6%9E%90%E5%9B%BE.png)
+![功能框图](/readme/%E5%88%86%E6%9E%90%E5%9B%BE.png)
 #### 6. E-R图
-![E-R图](E-R%E5%9B%BE.png)
+![E-R图](/readme/E-R%E5%9B%BE.png)
 #### 7. scdb数据库视图
 ##### 【主键】
 - scdb.department.dno
@@ -45,13 +45,13 @@ python3.11-mysql8.0.34-Student-Course-Selection-Information-Management-System
 - scdb.teacher.tdno         ---->    department.dno
 - scdb.teachercourse.tecno  ---->    course.cno
 - scdb.teachercourse.tno    ---->    teacher.tno
-![scdb视图](scdb.jpg)
+![scdb视图](/readme/scdb.jpg)
 #### 8. users数据库视图
 ##### 【主键】
 - users.t_admin.t_admin_account	
 - users.t_teacher.t_teacher_tno
 - users.t_student.t_student_sno
-![users视图](users.jpg)
+![users视图](/readme/users.jpg)
 #### 9. 主要函数
 1. 文件类
 【file_fun.py】
