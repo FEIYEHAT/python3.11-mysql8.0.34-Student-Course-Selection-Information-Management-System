@@ -82,3 +82,5 @@ The main function of the student course selection information management system 
 - Refresh time per second： **def update_clock(self)** 
 - Real time course selection time： **def time_compare(self)** 
 - Feedback course selection： **def tree_select(self, event)** 
+#### 10. SQL statement
+Due to the use of too many SQL statements in the program, exceeding 80 statements, specific explanations and SQL statements can be found in the [mysql. py] and [mysql2. py] files, which will not be explained one by one here.
