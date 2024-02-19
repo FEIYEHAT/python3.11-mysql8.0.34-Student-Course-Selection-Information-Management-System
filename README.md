@@ -1,15 +1,14 @@
 # python3.11-mysql8.0.34-Student-Course-Selection-Information-Management-System
-# python3.11-mysql8.0.34-学生选课信息管理系统
 
-#### 1. 介绍
-- python3.11-mysql8.0.34-Student-Course-Selection-Information-Management-System
+#### 1. Introduction
+- python3.11-mysql8.0.34-学生选课信息管理系统
 - https://gitee.com/in5430km/2024_2_18_scdb
-#### 2. 系统说明
-该学生选课信息管理系统的主要功能是收集、存储、处理和查询学生选课数据，为学生、教师和学校管理人员提供一个便捷、高效的管理工具。其次，所含的数据库明确了其目标用户群体，主要包括学生、教师和学校管理层。学生可以通过系统修改个人信息、进行选课、查看课程信息、导出信息表等操作；教师可以查看课程信息、查看学生选课情况并进行相应的课程管理；学校管理层则可以通过系统进行数据的增删改查、统计和分析。本系统具备了数据的完整性和一致性，确保在各种情况下都能够正常运行，数据同步与准确。
-###### 备注：由于编程时间比较仓促，仅用了两周时间从零构思数据库+两周时间从零学python+ttkbootstrap来编程此程序，在数据库设计方面，尚存在一些不足之处，如：班级应该用班级ID代替，而不是全称，用户数据库应该做到加密等。同时，用户数据对于程序来说，个人觉得应该做到【数据加密+数据解密程序应该作为接口被应用程序调用】这样比较好些，或许选用比这方法更好的。
+#### 2. System Description
+The main function of the student course selection information management system is to collect, store, process, and query student course selection data, providing a convenient and efficient management tool for students, teachers, and school administrators. Secondly, the included database clearly identifies its target user group, mainly including students, teachers, and school management. Students can modify their personal information, select courses, view course information, and export information tables through the system; Teachers can view course information, view student course selection status, and carry out corresponding course management; The school management can use the system to add, delete, modify, check, statistically analyze data. This system has the integrity and consistency of data, ensuring normal operation, data synchronization, and accuracy in all situations.
+###### Note：Due to the rushed programming time, it only took two weeks to program this program from scratch with a zero concept database and two weeks to learn Python and ttkbootstrap from scratch. However, there are still some shortcomings in database design, such as using class ID instead of full name, and encrypting user databases. At the same time, for user data in the program, I personally think it is better to achieve [ data encryption+data decryption program should be called as an interface by the application program ], and perhaps choose a better method than this.
 
 
-#### 3. 开发环境
+#### 3. Development Environment
 - 软件：PyCharm 2023.2.1
 - 软件：DataGrip 2023.2.1
 - MySQL8.0.34
