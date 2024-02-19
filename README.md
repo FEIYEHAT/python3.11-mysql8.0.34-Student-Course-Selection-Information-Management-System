@@ -13,7 +13,7 @@ python3.11-mysql8.0.34-Student-Course-Selection-Information-Management-System
 - 软件：PyCharm 2023.2.1
 - 软件：DataGrip 2023.2.1
 - MySQL8.0.34
-![MySQL8.0.34](mysql.png)
+![MySQL8.0.34](/readme/mysql.png)
 - Python3.11.5
 ![Python3.11.5](python.png)
 - Tkinter布局助手网址：https://www.pytk.net/
