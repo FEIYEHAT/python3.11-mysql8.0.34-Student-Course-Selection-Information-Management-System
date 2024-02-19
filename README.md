@@ -3,33 +3,33 @@
 #### 1. Introduction
 - python3.11-mysql8.0.34-学生选课信息管理系统
 - https://gitee.com/in5430km/2024_2_18_scdb
-#### 2. System Description
+#### 2. System description
 The main function of the student course selection information management system is to collect, store, process, and query student course selection data, providing a convenient and efficient management tool for students, teachers, and school administrators. Secondly, the included database clearly identifies its target user group, mainly including students, teachers, and school management. Students can modify their personal information, select courses, view course information, and export information tables through the system; Teachers can view course information, view student course selection status, and carry out corresponding course management; The school management can use the system to add, delete, modify, check, statistically analyze data. This system has the integrity and consistency of data, ensuring normal operation, data synchronization, and accuracy in all situations.
-###### Note：Due to the rushed programming time, it only took two weeks to program this program from scratch with a zero concept database and two weeks to learn Python and ttkbootstrap from scratch. However, there are still some shortcomings in database design, such as using class ID instead of full name, and encrypting user databases. At the same time, for user data in the program, I personally think it is better to achieve [ data encryption+data decryption program should be called as an interface by the application program ], and perhaps choose a better method than this.
+###### Note:Due to the rushed programming time, it only took two weeks to program this program from scratch with a zero concept database and two weeks to learn Python and ttkbootstrap from scratch. However, there are still some shortcomings in database design, such as using class ID instead of full name, and encrypting user databases. At the same time, for user data in the program, I personally think it is better to achieve [ data encryption+data decryption program should be called as an interface by the application program ], and perhaps choose a better method than this.
 
 
-#### 3. Development Environment
-- 软件：PyCharm 2023.2.1
-- 软件：DataGrip 2023.2.1
+#### 3. Development environment
+- software：PyCharm 2023.2.1
+- software：DataGrip 2023.2.1
 - MySQL8.0.34
 ![MySQL8.0.34](/readme/mysql.png)
 - Python3.11.5
 ![Python3.11.5](/readme/python.png)
 - Tkinter布局助手网址：https://www.pytk.net/
 ![Tkinter布局助手](/readme/Tkinter%E5%B8%83%E5%B1%80%E5%8A%A9%E6%89%8B.png)
-###### 网址来源于他人作者所创作，其作者作品开源于：https://github.com/iamxcd/tkinter-helper
-###### 备注：本作者利用这个Tkinter布局助手，解决了此程序的GUI布局问题，同时也使得程序编程更加便捷。故引用于此，以表感谢！
-#### 4. 主要链接库
-- 连接数据库 ：PyMySQL
-- python的GUI库 ：ttkbootstrap + tkinter
-- 生成表格文件 ：pandas
-- 获取当前时钟 ：datetime
-- 多线程调用 ：threading
-#### 5. 功能与需求分析
+###### The website is sourced from the author of (iamxcd Fresh Orange Duo), whose work is open source at:https://github.com/iamxcd/tkinter-helper
+###### Note:The author utilized this Tkinter布局助手 to solve the GUI layout problem of this program, while also making programming more convenient. Therefore, it is used here to express gratitude!
+#### 4. Partial external link libraries
+- Connect to the database ：PyMySQL
+- GUI library for Python ：ttkbootstrap + tkinter
+- Generate Table Files ：pandas
+- Get the current clock ：datetime
+- Multi threaded calling ：threading
+#### 5. Function and Requirements Analysis
 ![功能框图](/readme/%E5%88%86%E6%9E%90%E5%9B%BE.png)
-#### 6. E-R图
+#### 6. E-R
 ![E-R图](/readme/E-R%E5%9B%BE.png)
-#### 7. scdb数据库视图
+#### 7. Database view of scdb
 ##### 【主键】
 - scdb.department.dno
 - scdb.student.sno
@@ -45,7 +45,7 @@ The main function of the student course selection information management system 
 - scdb.teachercourse.tecno  ---->    course.cno
 - scdb.teachercourse.tno    ---->    teacher.tno
 ![scdb视图](/readme/scdb.jpg)
-#### 8. users数据库视图
+#### 8. Database view of users
 ##### 【主键】
 - users.t_admin.t_admin_account	
 - users.t_teacher.t_teacher_tno
